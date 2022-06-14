@@ -15,6 +15,8 @@ export class RenderElement {
 
 export const renderDocument = (document) => {
   const documentBody = document.querySelector('main');
+  documentBody.innerHTML = '';
+  
   let sections = [headerSection(), scoreBoardSection(), footerSection()];
 
   sections.forEach(section => {
