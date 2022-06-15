@@ -6,7 +6,7 @@ The leaderboard website displays scores submitted by different players. It also 
 ## Development Quickstart
 
 ```
-$ git clone https://github.com/kwekubright/webpack-skeleton.git
+$ git clone https://github.com/kwekubright/LeaderBoard.git
 $ cd webpack-skeleton
 $ touch .env
 $ npm install
