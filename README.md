@@ -6,11 +6,21 @@ The leaderboard website displays scores submitted by different players. It also 
 ## Development Quickstart
 
 ```
-$ git clone https://github.com/kwekubright/webpack-skeleton.git
+$ git clone https://github.com/kwekubright/LeaderBoard.git
 $ cd webpack-skeleton
+$ touch .env
 $ npm install
 $ npm build
 $ npm start
+```
+
+# .env file
+Below is the content for .env file. Please create a .env file in the root folder and paste the code below to be able to run the code locally:
+
+```
+GAME_ID="zlYEZxLx5r6TCz5Zwler"
+GAME_NAME="Microverse League of Legends"
+API_BASE_URL="https://us-central1-js-capstone-backend.cloudfunctions.net/api/"
 ```
 
 ### Requirements
