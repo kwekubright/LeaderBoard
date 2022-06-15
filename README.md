@@ -8,10 +8,12 @@ The leaderboard website displays scores submitted by different players. It also 
 ```
 $ git clone https://github.com/kwekubright/webpack-skeleton.git
 $ cd webpack-skeleton
+$ touch .env
 $ npm install
 $ npm build
 $ npm start
 ```
+Please populate the .env file using the .env.sample content
 
 ### Requirements
 
