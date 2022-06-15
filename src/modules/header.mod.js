@@ -12,5 +12,5 @@ export let headerSection = () => {
     </header> 
     `;
   
-  return new DOMParser().parseFromString(header, 'text/html').body.firstChild;
+  return header;
 }

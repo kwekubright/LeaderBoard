@@ -1,6 +1,7 @@
 /* eslint-disable no-undef */
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const dotenv = require('dotenv-webpack');
 
 module.exports = {
   entry: './src/index.js',
@@ -12,6 +13,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
     }),
+    new dotenv()
   ],
   output: {
     filename: 'main.js',
