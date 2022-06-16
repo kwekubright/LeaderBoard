@@ -27,7 +27,7 @@ export let scoreBoardSection = () => {
         <!-- Add Score  -->
         <div class="add-score-content flex-basis-50 bg-glass bg-shadow">
             <div class="add-score-title margin-bottom-3">
-              <h2>Add Score</h2>
+              <h2>Add score</h2>
             </div>
             <div class="">
               <div class="add-score-content-container">
