@@ -16,6 +16,7 @@ body {
 h1,
 h2 {
   font-size: 1.25rem;
+  color: #0021ba;
 }
 
 /* Flexbox */
@@ -62,6 +63,10 @@ h2 {
 
 .flex-justify-space-around {
   justify-content: space-around;
+}
+
+.flex-align-start {
+  align-items: flex-start;
 }
 
 .flex-basis-100 {
@@ -248,6 +253,8 @@ header a {
 .score-board-content {
   padding: 30px;
   border-radius: 5px;
+  height: 60vh;
+  overflow: scroll;
 }
 
 .add-score-content {
@@ -272,6 +279,11 @@ table tr {
 table tr > td > p {
   padding: 0.625rem;
   font-weight: 600;
+}
+
+.footer-container > p {
+  color: #0021ba;
+  font-weight: 500;
 }
 
 table tr:last-child {

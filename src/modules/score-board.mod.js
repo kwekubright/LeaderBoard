@@ -3,7 +3,7 @@ export let scoreBoardSection = () => {
     `
     <div class="score-board">
     <div id="alert-container" class="margin-bottom-3 width-50"> </div>
-      <div class="score-board-container flex">
+      <div class="score-board-container flex flex-align-start">
       <!-- Score Board -->
         <div class="score-board-content flex-basis-50 bg-glass bg-shadow">
           <div class="title-wrap margin-bottom-3 flex flex-justify-space-between flex-align-center">
@@ -27,7 +27,7 @@ export let scoreBoardSection = () => {
         <!-- Add Score  -->
         <div class="add-score-content flex-basis-50 bg-glass bg-shadow">
             <div class="add-score-title margin-bottom-3">
-              <h2>Add Score</h2>
+              <h2>Add score</h2>
             </div>
             <div class="">
               <div class="add-score-content-container">
