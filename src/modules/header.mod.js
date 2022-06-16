@@ -5,7 +5,7 @@ export let headerSection = () => {
       <div class="header-container flex">
         <div class="header-logo flex">
           <a href="index.html">
-            <h1>Leaderboard</h1>
+            <h1>🏆 Microverse Games</h1>
           </a>
         </div>
       </div>

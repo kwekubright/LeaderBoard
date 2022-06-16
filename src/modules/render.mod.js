@@ -37,11 +37,26 @@ export const loadScoreBoardFromService = () => {
     if (results.length > 0) {
       results.forEach((result, index) => {
         (index === 0) ? parent.innerHTML = "" : null;
+        let award = "";
+        switch (index) { 
+          case 0:
+            award = "🥇";
+            break;
+          case 1:
+            award = "🥈";
+            break;
+          case 2:
+            award = "🥉";
+            break;
+          default:
+            award = "";
+        }
+
         const resultHtml =
           `
         <tr>
           <td>
-            <p>${result.user}: ${result.score}</p>
+            <p>${award} ${result.user}: ${result.score}</p>
           </td>
         </tr>
         `;
