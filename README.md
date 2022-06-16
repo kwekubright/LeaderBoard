@@ -3,6 +3,12 @@
 ## Description
 The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
+
+
+https://user-images.githubusercontent.com/5249414/173997387-8c065314-a027-4098-9b05-958049369612.mp4
+
+### Live Demo: https://kwekubright.github.io/LeaderBoard/public/
+
 ## Development Quickstart
 
 ```
