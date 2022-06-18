@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { Services } from "./services.mod";
-import { RenderElement } from "./render.mod";
+import { loadScoreBoardFromService, RenderElement } from "./render.mod";
 import { Alert } from "./alert.mod";
 
 const appendNewScoreToScoreBoard = (teamName, score) => {
@@ -21,6 +21,7 @@ export const processAddScoreForm = (teamName, score) => {
   Services.addGameScore(teamName, score).then(apiResponse => {
     if (apiResponse.result === "Leaderboard score created correctly.") { 
       Alert.displayAlert(apiResponse.result, "success");
+      loadScoreBoardFromService();
     }
   }, error => { 
     console.log(error);
