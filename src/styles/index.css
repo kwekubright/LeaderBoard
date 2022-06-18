@@ -331,15 +331,44 @@ input {
 
 /* Small Screens */
 @media screen and (max-width: 48rem) {
+  body {
+    background-position: bottom;
+  }
+
   .score-board {
-    padding: 36px 80px;
+    padding: 10%;
   }
 
   .score-board-container {
     flex-direction: column;
   }
 
+  .score-board-content {
+    order: 2;
+    width: 100%;
+  }
+
+  .add-score-content {
+    padding: 30px;
+    border-radius: 5px;
+    width: 100%;
+    order: 1;
+  }
+
+  .title-wrap {
+    flex-direction: column;
+    gap: 13px;
+  }
+
   footer {
     bottom: unset !important;
+  }
+
+  .add-score-content-container-form-btn {
+    justify-content: center;
+  }
+  
+  #alert-container {
+    width: 100%;
   }
 }
